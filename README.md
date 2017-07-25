@@ -1,4 +1,4 @@
-//weather-app
+weather-app
 
 //Build Page<br>
 1. Install node and npm on your system
