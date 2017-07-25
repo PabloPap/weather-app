@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weather app</title>
+    <meta name="description" content="weather">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- application content -->
+    <nav class="navbar">
+        <span class="open-menu">
+            <a href="#" class="open-slider">
+                <svg width="80" height="70" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43,49 76,49" stroke="#70FF91" stroke-width="3"/>
+                    <path d="M43,58 76,58" stroke="#70FF91" stroke-width="3"/>
+                    <path d="M43,67 76,67" stroke="#70FF91" stroke-width="3"/>
+                </svg>
+            </a>
+        </span>
+    </nav>
+        <div class="side-menu">
+            <a href="#" class="btn-close">&times;</a>
+            <div class="navbar-nav">
+                <h1>Your <br> best <br> weather <br> app</h1>
+                <div class="sub-menu">
+                    <a href="#"><img src="help-files/substract.png" alt="line"></a>
+                    <a href="#">team</a>
+                    <a href="#">history</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="footer-menu">
+                    <h3>suggest to a friend</h3>
+                    <a href="#"><img src="help-files/facebook-logo.png" alt="facebook-icon">
+                    </a>
+                    <a href=""><img src="help-files/twitter-logo-silhouette.png" alt="twitter-icon">
+                    </a>
+                    <a href=""><img src="help-files/google-plus.png" alt="google-icon"></a>
+                </div>
+            </div>
+        </div>
+
+    <div class="page-1">
+        <div class="wrapper">
+            <div class="preloader"></div>
+            <p class="name">umbrellapp</p>
+        </div>
+        <div class="symbol">
+            <p>&#216;</p>
+        </div>
+    </div>
+    <section class="page-2">
+        <div class="user-section">
+           <div class="label-text">
+               <label class="label">Type a location:</label>
+           </div>
+            <label class="input input-submit">
+            <div class="button">
+                <input type="submit"><img src="help-files/search.png" alt="">
+            </div>
+            <input class="get" type="text" placeholder="type here..">
+        </label>
+           <div class="user-loc">
+               <label class="label">or give us your location</label>
+               <div class="submit">
+                   <input class="send" type="submit" value="access location">
+               </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="show-weather page-3">
+       <div class="top-screen">
+           <div class="umbrella"><img src="help-files/open-umbrella-sm.png" alt="umbrella-icon"></div>
+           <div class="favorite">
+               <span>Add to Favorites <img src="help-files/heart.png" alt="heart-icon"></span>
+           </div>
+       </div>
+        <div class="main-temp">
+            <h3 class="today">TODAY</h3>
+            <h3 class="city"></h3>
+            <a class="icon ic0"></a>
+            <h3 class="maxTemp curTemp"><br></h3>
+            <h3 class="minTemp curMinTemp"></h3>
+        </div>
+        <div class="next-temp">
+            <div class="five-days">
+                <h3 class="day1"></h3>
+                <a href="" class="icon ic1"></a>
+                <h3 class="maxTemp1"><br></h3>
+                <h3 class="minTemp1"></h3>
+            </div>
+            <div class="five-days">
+                <h3 class="day2"></h3>
+                <a href="" class="icon ic2"></a>
+                <h3 class="maxTemp2"><br></h3>
+                <h3 class="minTemp2"></h3>
+            </div>
+            <div class="five-days">
+                <h3 class="day3"></h3>
+                <a href="" class="icon ic3"></a>
+                <h3 class="maxTemp3"><br></h3>
+                <h3 class="minTemp3"></h3>
+            </div>
+            <div class="five-days">
+                <h3 class="day4"></h3>
+                <a href="" class="icon ic4"></a>
+                <h3 class="maxTemp4"><br></h3>
+                <h3 class="minTemp4"></h3>
+            </div>
+            <div class="five-days">
+                <h3 class="day5"></h3>
+                <a href="" class="icon ic5"></a>
+                <h3 class="maxTemp5"><br></h3>
+                <h3 class="minTemp5"></h3>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="dist/js/bundle.js"></script>
+</body>
+</html>
